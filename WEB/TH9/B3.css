@@ -1,0 +1,235 @@
+.container {
+    width: 1000px;
+    margin: 5px auto;
+    border: 1px black solid;
+}
+
+.logo {
+    height: 70px;
+
+}
+
+#logo {
+    width: 60px;
+    height: 35px;
+    background-color: gray;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+#button1 {
+    width: 100px;
+    height: 20px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    margin-right: 0px;
+}
+
+#button2 {
+    width: 100px;
+    height: 20px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}
+
+.web {
+    height: 20px;
+    padding: 10px;
+
+}
+
+.web p {
+    margin-left: 10px;
+    margin-top: 0px;
+    float: left;
+}
+
+.web-right {
+    float: right;
+}
+.web-right a{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+nav {
+    height: 50px;
+    background-color: grey;
+}
+nav .menu ul {
+    list-style: none;
+    padding: 0px;
+}
+nav .menu ul li {
+    float: left;
+    margin: 10px;
+}
+nav .menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+}
+.body{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.line{
+    width: 97%;
+    height: 1px;
+    background-color: black;
+    margin-left: 20px;
+}
+#name{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.left{
+    width: 69%;
+    margin-right: 10px;
+}
+.describe {
+    margin: 15px;
+    display: flex;
+}
+.describe img{
+    width: 40%;
+}
+.tsp{
+    width: 54%;
+    margin: 0px 20px;
+    margin-right: 0px;
+}
+.tsp p{
+    text-align: justify;
+}
+#tsp{
+    margin: 0px;
+    color: blue;
+    font-size: 20px;
+}
+
+.box{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+
+}
+.box1{
+    width: 60px;
+    height: 60px;
+    background-color: grey;
+    margin: 10px;
+}
+#tin{
+    color: gray;
+    margin: 5px 20px;
+}
+#note{
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+.banner button
+{
+    background-color: grey;
+    color: white;
+    font-size: 25px;
+    width: 90%;
+    margin: 25px;
+    padding: 30px;
+    margin-bottom: 20px;
+
+}
+.right{
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.rline{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+
+}
+
+.linklq a {
+
+    display: block; /* Hiển thị các liên kết là các khối độc lập, xuống dòng */
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+.linklq a::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(175, 65, 248);
+    margin-right: 5px;
+    margin-left: 10px;
+}
+#box{
+    width: 100%;
+    height: 90px;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.footer{
+    display: flex;
+}
+.fleft{
+    width: 60%;
+}
+.fleft p{
+    margin: 10px 10px;
+}
+.fright{
+    width: 40%;
+
+}
+.flink a{
+    float: right;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+.fright p{
+    clear: both;
+    float: right;
+    margin: 10px 10px;
+}

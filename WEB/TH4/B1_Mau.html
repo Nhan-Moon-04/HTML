@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 40%;
+            margin: 0px auto;
+           
+        }
+
+        .tab1 h1 {
+            font-size: 40px;
+            background-color: grey;
+            padding: 20px;
+            margin-top: 0;
+            margin-bottom: 4px;
+        }
+        .tab1{
+            border: 3px solid black;
+            margin-bottom: 20px;
+        }
+        .tab1 form {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 5px;
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+
+        }
+
+        .form-group label {
+            font-size: 20px;
+            width: 20%;
+            box-sizing: border-box;
+        }
+
+      .form-group input, select{
+        font-size: 20px;
+        width: 80%;
+      }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tab1">
+            <h1>THÔNG TIN NGƯỜI GỬI</h1>
+            <form>
+                <div class="form-group">
+                    <label for="Nguoigui">* Người gửi</label>
+                    <input type="text" name="Nguoi gui" placeholder="Nhập họ và tên">
+                </div>
+                <div class="form-group">
+                    <label for="email">* Email</label>
+                    <input type="text" name="email" placeholder="Nhập email">
+                </div>
+                <div class="form-group">
+                    <label for="sdt">* Điện thoại</label>
+                    <input type="number" name="sdt" placeholder="Nhập phone">
+                </div>
+            </form>
+        </div>
+        <div class="tab1">
+            <h1>THÔNG TIN NGƯỜI NHẬN</h1>
+            <form>
+                <div class="form-group">
+                    <label for="Nguoigui">* Người nhận</label>
+                    <input type="text" name="Nguoi gui" placeholder="Nhập họ và tên">
+                </div>
+                <div class="form-group">
+                    <label for="email">* Điện thoại</label>
+                    <input type="number" name="email" placeholder="Nhập phone">
+                </div>
+                <div class="form-group">
+                    <label for="sdt">* Địa chỉ</label>
+                    <input type="text" name="sdt" placeholder="Nhập địa chỉ">
+                </div>
+                <div class="form-group">
+                    <label for="sdt">* Tỉnh</label>
+                    <select name="Tinh">
+                        <option value="1">TP.HCM</option>
+                        <option value="2">Hà Nội</option>
+                        <option value="3">Huế</option>
+                        <option value="4">Đà Nẵng</option>
+                        <option value="5">Quảng Ninh</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="sdt">* Quận</label>
+                    <select name="Tinh">
+                        <option value="1">TP.HCM</option>
+                        <option value="2">Hà Nội</option>
+                        <option value="3">Huế</option>
+                        <option value="4">Đà Nẵng</option>
+                        <option value="5">Quảng Ninh</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

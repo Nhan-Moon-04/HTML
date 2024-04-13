@@ -1,0 +1,36 @@
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+nav ul ul li {
+    float: none;
+    width: 100%;
+}
+
+nav ul ul li a {
+    padding: 8px 10px;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}

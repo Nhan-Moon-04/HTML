@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .video-container,
+        .audio-container {
+            width: 49%; /* Điều chỉnh kích thước của các phần tử tại đây */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            <p>Demo for MP4 File</p>
+            <video controls width="100%" muted loop>
+                <source src="/Song/🎵_Vietsub _ Lyrics_ Shadow Of The Sun - Max Elto _chill + repeat🎵.mp4">
+            </video>
+        </div>
+        <div class="audio-container">
+            <p>Simple for audio</p>
+            <audio controls muted loop>
+                <source src="/Playlists/[ Vietsub +Lyrics ] Somewhere only we know ( rhianne cover ) - keane ♫.mp3">
+            </audio>
+            <p>Simple for audio</p>
+            <audio controls muted loop>
+                <source src="/Playlists/[Lyrics + Vietsub] Something Just Like This - Romy Wave (Piano Cover).mp3">
+            </audio>
+        </div>
+    </div>
+</body>
+</html>

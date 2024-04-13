@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tab1 table,
+        td,
+        tr {
+            border: 1px black solid;
+            text-align: center;
+            line-height: 30px;
+
+        }
+
+        .tab1 input {
+            margin: 0px;
+            float: left;
+        }
+
+        .tab1 th {
+            font-size: 25px;
+            padding: 10px;
+        }
+        .tab2 table,
+        td,
+        tr,th {
+            border: 1px black solid;
+            text-align: center;
+            line-height: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tab1">
+        <table cellspacing="0px" style="width: 600px;">
+            <tr>
+                <th colspan="2">THÊM SINH VIÊN</th>
+            </tr>
+            <tr>
+                <td>Mã Sinh Viên</td>
+                <td>
+                    <input type="text" name="mssv">
+                </td>
+            </tr>
+            <tr>
+                <td>Họ Tên</td>
+                <td>
+                    <input type="text" name="hoten">
+                </td>
+            </tr>
+            <tr>
+                <td>Ngày sinh</td>
+                <td>
+                    <input type="date" name="ngaysinh">
+                </td>
+            </tr>
+            <tr>
+                <td>Hình</td>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="tab2">
+        <table cellspacing="0px" style="width: 600px;">
+            <tr>
+                <div class="head">
+                    <th colspan="5">DANH SÁCH SINH VIÊN</th>
+                </div>
+            </tr>
+            <tr>
+                <th>STT</th>
+                <th>MÃ SV</th>
+                <th>Họ Tên</th>
+                <th>Ngày Sinh</th>
+                <th>Hình</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2001223255</td>
+                <td>Nguyễn Thiện Nhân</td>
+                <td>16/11/2004</td>
+                <td>Đéo có</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2001223255</td>
+                <td>Nguyễn Thiện Nhân</td>
+                <td>16/11/2004</td>
+                <td>Đéo có</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

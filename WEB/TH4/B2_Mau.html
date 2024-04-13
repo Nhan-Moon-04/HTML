@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .box
+        {
+            border-bottom: 1px solid black;
+            display: flex;
+        }
+        .button
+        {
+            margin-bottom: 7px;
+             margin-top: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <form style="border: 1px solid black;width: 572px;margin: 50px auto">
+        <table widht="100%">
+            <tr>
+                <td width="5px"></td>
+                <td style="border-bottom: 1px solid black;">
+                    <div style="display: flex; margin-top: 5px;align-items: center;">
+                        <p>Username:</p>
+                        <input type="text" style="height: 20px;margin-left: 3px;width: 150px;" />
+                    </div>
+                    <div style="display: flex; align-items: center;">
+                        <p>Password:</p>
+                        <input type="password"
+                            style="height: 20px;margin-left: 3px;width: 450px; margin-right: 37px;" />
+                    </div>
+                    <input type="submit" value="ĐĂNG NHẬP" style="margin-bottom: 7px;" />
+                </td>
+            </tr>
+            <tr>
+                <td width="5px"></td>
+                <td class="box">
+                    <div>
+                        <p>Hobby:</p>
+                    </div>
+                    <div style="margin-top: 17px; margin-left: 3px;margin-bottom: 7px;">
+                        <label><input type="checkbox" value="music" />Music</label>
+                        <br>
+                        <label><input type="checkbox" value="film" checked />Film</label>
+                        <br>
+                        <label><input type="checkbox" value="sport" checked />Sport</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td width="5px"></td>
+                <td class="box">
+                    <div>
+                        <p>Uses for:</p>
+                    </div>
+                    <div style="margin-top: 17px; margin-left: 3px;margin-bottom: 7px;">
+                        <label><input type="radio" value="home" name="purpose"/>Home</label>
+                        <br>
+                        <label><input type="radio" value="business" name="purpose" checked />Business</label>
+                        <br>
+                        <label><input type="radio" value="government" name="purpose" >Government</label>
+                        <br>
+                        <label><input type="radio" value="educational institution" name="purpose">Educational Institution</label>
+                        <br>
+                        <label><input type="radio" value="other" name="purpose">Other</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td width="5px"></td>
+                <td class="box">
+                    <input type="button" value="CHUỖI RESET" class="button" />
+                </td>
+            </tr>
+            <tr>
+                <td width="5px"></td>
+                <td class="box">
+                    <button type="button" class="button">OK</button>
+                </td>
+            </tr>
+            <tr>
+                <td width="5px"></td>
+                <td style=" border-bottom: 1px solid black;padding-bottom: 10px;"></td>
+            </tr>
+            <tr height="1px"></tr>
+        </table>
+    </form>
+</body>
+
+</html>

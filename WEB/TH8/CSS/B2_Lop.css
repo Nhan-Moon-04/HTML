@@ -1,0 +1,48 @@
+#menu
+{
+    line-height: 50px;
+    width: 150px;
+}
+#menu li
+{
+    height: 50px;
+    background-color: black;
+    margin: 1px 0;
+    border-bottom: 3px solid #FFF;
+    position: relative;
+}
+#menu a
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 17px;
+}
+#menu li:hover
+{
+    background-color: #454545;
+}
+#submenu,#subsubmenu
+{
+    width: 150px;
+    position: absolute;
+    left: 75%;
+    top: -2%;
+    display: none;
+}
+#submenu li
+{
+    background-color: #808080;
+    width: 170px;
+}
+#menu li:hover > #submenu
+{
+    display:block
+}
+#submenu li:hover > #subsubmenu
+{
+    display: block;
+}
+ul
+{
+    list-style: none;
+}

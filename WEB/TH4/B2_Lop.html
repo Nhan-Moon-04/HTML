@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 1000px;
+            margin: 10px auto;
+            font-size: 20px;
+            border: black solid;
+            background-image: url(bg.jpg);
+        }
+
+        .tab tr td {
+            line-height: 30px;
+        }
+        .tab input
+        {
+            line-height: 20px;
+        }
+        .kk {
+            display: flex;
+        }
+
+        .kh select {
+            margin-right: 140px;
+            height: 25px;
+        }
+
+        .kh {
+            width: 500px;
+        }
+
+        .but {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .info {
+            color: blue;
+            font-weight: bold;
+            text-align: center;
+            width: 200px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="color: blue;" align="center">THÔNG TIN KHÁCH HÀNG</h1>
+        <table class="tab">
+            <tr>
+                <td class="info">
+                    Tên khách hàng:
+                </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="info">Tình trạng</td>
+                <td class="kk">
+                    <div class="kh" style="margin-top: 19px;">
+                        <select>
+                            <option value="1">Khách hàng mới</option>
+                            <option value="2">Khách hàng cũ</option>
+                            <option value="3">Kakakaka</option>
+                        </select>
+                    </div>
+                    <div style="display: flex;margin-bottom: 0px;">
+                        <p style="font-weight: bold; color: blue;">Mã KH:</p>
+                        <input type="text" style="height: 17px;margin-left: 5px;width:100px;margin-top: 24px;" />
+                    </div>
+    </div>
+
+
+    </td>
+    <tr>
+        <td class="info">Chọn Khu:</td>
+        <td>
+            <div class="chonkhu">
+                <label><input type="radio" name="k">Khách Sạn</label>
+                <label><input type="radio" name="k">Karaoke</label>
+            </div>
+        </td>
+
+    </tr>
+    <tr>
+        <td class="info"></td>
+        <td>
+            <label class="info">Số Phòng: <input type="text"></label>
+        </td>
+    </tr>
+    <tr>
+        <td class="info"></td>
+        <td><label><input type="radio" name="bc">Bar Club</label>
+            <label><input type="radio" name="bc">Coffee</label>
+        </td>
+    </tr>
+    <tr>
+        <td class="info">
+            Yêu cầu:
+        </td>
+        <td><input type="text" style="height: 50px; width:350px"></td>
+    </tr>
+    </tr>
+    </table>
+    <div class="but"><button style="font-weight:bold; font-size:18px">Gửi Thông Tin</button></div>
+
+    <h4 align="center" style="color: red;">Quý khách vui lòng điền đầy đủ thông tin trước khi đặt món ăn</h4>
+    </div>
+</body>
+
+</html>

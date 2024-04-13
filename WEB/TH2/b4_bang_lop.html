@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Display</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+        th, td {
+            border: 1px solid #000000;
+            padding: 8px;
+            text-align: left;
+        }
+        .rating {
+            color: orange;
+            font-size: 25px;
+        }      
+        .Pay{
+            text-align: center;
+            padding:6px;
+            width:50px;
+            font-size: 10px;
+            background-color: red;
+            color:white;
+        }          
+        .discount {
+            position: absolute; /* Đặt vị trí tuyệt đối cho văn bản giảm giá */
+            bottom: 10px; /* Cách bottom 10px */
+            left: 10px; /* Cách left 10px */
+            background-color: rgba(255, 255, 255, 0.7); /* Màu nền cho văn bản */
+            padding: 5px 10px; /* Padding cho văn bản */
+            border-radius: 5px; /* Bo tròn góc */
+        }
+        .product_img{
+            position: relative;
+        }
+        .product_img img {
+            width: 100%;
+            height: auto;
+        }
+        .product_name h3 {
+            margin: 5px 0;
+        }
+        .product__box-price {
+            font-weight: bold;
+            color: red;
+            font-size: 30px;
+        }
+        .describe {
+            color: #666;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center" style="color: red;">MÁY TÍNH BẢNG NỔI BẬT NHẤT</h1>
+    <table align="center">
+        <tr>
+            <td>
+                <div class="new_list">
+                    <div class="product_img">
+                        <img src="/img/i1.webp" alt="Product Image">
+                        <div class="discount">Trả góp 0%</div>
+                    </div>
+                    <div class="product_name">
+                        <h2>Samsung Galaxy Tab A 10.5 Inch</h2>
+
+                    </div>
+                    
+                    <span class="rating">★★★★☆</span>
+                    <span style="font-size: 20px;">7 đánh giá</span>
+                    <div class="product__box-price">
+                        <p class="product__price--show">9.490.000₫</p>
+                    </div>
+                    <div class="describe">
+                        <p>Cơ hội trúng 61 xe Wave ALpha khi trả góp Home Credit</p>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="new_list">
+                    <div class="product_img">
+                        <img src="/img/i2.webp" alt="Product Image">
+                    </div>
+                    <div class="product_name">
+                        <h2>Samsung Galaxy Tab A 10.5 Inch</h2>
+                    </div>
+                    <span class="rating">★★★★☆</span>
+                    <span style="font-size: 20px;">7 đánh giá</span>
+                    <div class="product__box-price">
+                        <p class="product__price--show">9.490.000₫</p>
+                    </div>
+                    <div class="describe">
+                        <p>Cơ hội trúng 61 xe Wave ALpha khi trả góp Home Credit</p>
+                    </div>
+                </div>
+                
+            </td>
+            <td>
+                <div class="new_list">
+                    <div class="product_img">
+                        <img src="/img/i3.webp" alt="Product Image">
+                    </div>
+                    <div class="product_name">
+                        <h2>Samsung Galaxy Tab A 10.5 Inch</h2>
+                    </div>
+                    <span class="rating">★★★★☆</span>
+                    <span style="font-size: 20px;">7 đánh giá</span>
+                    <div class="product__box-price">
+                        <p class="product__price--show">9.490.000₫</p>
+                    </div>
+                    <div class="describe">
+                        <p>Cơ hội trúng 61 xe Wave ALpha khi trả góp Home Credit</p>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="new_list">
+                    <div class="product_img">
+                        <img src="/img/i4.webp" alt="Product Image">
+                    </div>
+                    <div class="product_name">
+                        <h2>Samsung Galaxy Tab A 10.5 Inch</h2>
+                    </div>
+                    <span class="rating">★★★★☆</span>
+                    <span style="font-size: 20px;">7 đánh giá</span>
+                    <div class="product__box-price">
+                        <p class="product__price--show">9.490.000₫</p>
+                    </div>
+                    <div class="describe">
+                        <p>Cơ hội trúng 61 xe Wave ALpha khi trả góp Home Credit</p>
+                    </div>
+                </div>
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="new_list">
+                    <div class="product_img">
+                        <img src="/img/i5.webp" alt="Product Image">
+                    </div>
+                    <div class="product_name">
+                        <h2>Samsung Galaxy Tab A 10.5 Inch</h2>
+                    </div>
+                    <span class="rating">★★★★☆</span>
+                    <span style="font-size: 20px;">7 đánh giá</span>
+                    <div class="product__box-price">
+                        <p class="product__price--show">9.490.000₫</p>
+                    </div>
+                    <div class="describe">
+                        <p>Cơ hội trúng 61 xe Wave ALpha khi trả góp Home Credit</p>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="new_list">
+                    <div class="product_img">
+                        <img src="/img/i6.webp" alt="Product Image">
+                    </div>
+                    <div class="product_name">
+                        <h2>Samsung Galaxy Tab A 10.5 Inch</h2>
+                    </div>
+                    <span class="rating">★★★★☆</span>
+                    <span style="font-size: 20px;">7 đánh giá</span>
+                    <div class="product__box-price">
+                        <p class="product__price--show">9.490.000₫</p>
+                    </div>
+                    <div class="describe">
+                        <p>Cơ hội trúng 61 xe Wave ALpha khi trả góp Home Credit</p>
+                    </div>
+                </div>
+                
+            </td>
+            <td>
+                <div class="new_list">
+                    <div class="product_img">
+                        <img src="/img/i7.webp" alt="Product Image">
+                    </div>
+                    <div class="product_name">
+                        <h2>Samsung Galaxy Tab A 10.5 Inch</h2>
+                    </div>
+                    <span class="rating">★★★★☆</span>
+                    <span style="font-size: 20px;">7 đánh giá</span>
+                    <div class="product__box-price">
+                        <p class="product__price--show">9.490.000₫</p>
+                    </div>
+                    <div class="describe">
+                        <p>Cơ hội trúng 61 xe Wave ALpha khi trả góp Home Credit</p>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="new_list">
+                    <div class="product_img">
+                        <img src="/img/i8.webp" alt="Product Image">
+                    </div>
+                    <div class="product_name">
+                        <h2>Samsung Galaxy Tab A 10.5 Inch</h2>
+                    </div>
+                    <span class="rating">★★★★☆</span>
+                    <span style="font-size: 20px;">7 đánh giá</span>
+                    <div class="product__box-price">
+                        <p class="product__price--show">9.490.000₫</p>
+                    </div>
+                    <div class="describe">
+                        <p>Cơ hội trúng 61 xe Wave ALpha khi trả góp Home Credit</p>
+                    </div>
+                </div>
+                
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
